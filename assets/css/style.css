@@ -12,7 +12,7 @@ html, body {
     height: 100%;
 }
 
-body {
+html, body {
     background: linear-gradient(#fcf5fa,#ebe4f1, #d7d3ea)
 }
 
@@ -23,7 +23,13 @@ header {
     justify-content: space-between;
     width: 100%;
     height: 7.5vh;
-        }
+    position: fixed;
+}
+
+.header-bg {
+    background: rgba(255, 255, 255, .35);
+    backdrop-filter: blur(2.5px);
+}
 
 .logo {
     display: flex;
@@ -61,4 +67,17 @@ ul li {
 
 box-icon, ul li {
     cursor: pointer;
+}
+
+section.banner {
+    height: 100%;
+    width: 100%;
+    background-image: url('../img/cleyton-ewerton-2QjkARcLUZw-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main {
+    width: 100%;
+    height: 100%;
 }
