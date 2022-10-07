@@ -1,7 +1,6 @@
 let allImages = document.querySelectorAll('img')
 allImages.forEach(e => e.setAttribute('draggable', 'false'))
 
-
 let header = document.querySelector('header')
 let logo = document.getElementById('logo')
 document.body.onscroll = () => {
