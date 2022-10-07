@@ -65,6 +65,7 @@ ul li {
     text-transform: lowercase;
     font-weight: 600;
     font-family: 'Signika Negative', sans-serif;
+    text-align: center;
 }
 
 box-icon, ul li {
@@ -74,7 +75,7 @@ box-icon, ul li {
 section.banner {
     height: 100%;
     width: 100%;
-    background-image: url('../img/cleyton-ewerton-2QjkARcLUZw-unsplash.jpg');
+    background-image: url('../img/banner.png');
     background-repeat: no-repeat;
     background-size: cover;
 }

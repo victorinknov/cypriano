@@ -1,16 +1,17 @@
 
+
 .pub {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100%;
-    width: 100%;
+    height: 100vh;
+    width: 100vw;
     position: absolute;
     top: 0;
     left: 0;
     z-index: 10000;
     background: rgba(255,255,255,.5);
-    backdrop-filter: blur(2.5px);
+    backdrop-filter: blur(1.5px);
     transition: all 1s ease-in-out;
 }
 
@@ -76,3 +77,27 @@ a {
     font-family: 'Gogh', sans-serif;
     text-decoration: none;
 }
+
+
+
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 0px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: transparent;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: transparent;
+  }
