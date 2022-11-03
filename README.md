@@ -1,5 +1,6 @@
 ## Preview
 ![website preview](https://raw.githubusercontent.com/victorinknov/cypriano/master/screenshot.png)
+![website preview](https://raw.githubusercontent.com/victorinknov/cypriano/master/screenshot2.png)
 
 ## Project
 This is the homepage of an e-commerce that sells stylish retail pants. It is a work developed for the company [Cypriano](https://www.instagram.com/cypriano___/) on the domain of the company [PlateSys](https://platesys.com/).
